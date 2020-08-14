@@ -1,2 +1,2 @@
 # app-rest
-Primera app rest node, express y mongodb
+app rest con node, express y mongodb
