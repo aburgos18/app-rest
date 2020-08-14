@@ -1,0 +1,26 @@
+{
+  "name": "app-rest",
+  "version": "1.0.0",
+  "description": "app rest con node, express y mongodb",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aburgos18/app-rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aburgos18/app-rest/issues"
+  },
+  "homepage": "https://github.com/aburgos18/app-rest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
