@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const port = 3000;
 
 const mongoose = require("mongoose");
 require('dotenv/config');
@@ -33,6 +32,6 @@ mongoose.connect(
 	}
 );
 
-app.listen(port, () => {
-	console.log(`app escuchando por http://localhost:${port}`);
+app.listen(process.env.PORT, () => {
+	console.log(`app escuchando por http://localhost:${process.env.PORT}`);
 });
